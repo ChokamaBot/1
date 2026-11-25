@@ -1,2 +1,2 @@
 # Hello there 
-This is an useful app, really, but for who? Uhh
+This is a mock up school website.
