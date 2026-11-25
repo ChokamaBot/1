@@ -1,0 +1,43 @@
+:root{
+--back-color: #8A817C;
+--text-color: #F4F3EE;
+}
+
+header, main, footer, nav{
+    border: 2px black solid;
+}
+
+header{
+    width: 20em;
+}
+
+
+body{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+    cursor: default;
+    background-color: var(--back-color);
+    color: var(--text-color);
+
+}
+
+#content{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+header{
+    grid-row: 1 / 2;
+    grid-column: 3/ 4;
+}
+
+footer{
+    margin-top: 40em;
+    text-align: center;
+    width: 100%;
+    grid-row: 4/ 5;
+    grid-column: 2 / 3;
+}
